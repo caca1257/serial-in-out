@@ -30,7 +30,7 @@ function draw(){
   background('#000');
  
  //console.log(inData);
- 
+ rectMode(CENTER);
   rect(width/2, height/2, inData, inData);
   
   rect(inData, inData, 30, 30);
